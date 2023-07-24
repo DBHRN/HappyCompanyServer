@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 export const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb://0.0.0.0:27017/merndb');
+        await mongoose.connect('mongodb+srv://dbhrn:Espadaplasma1@atlascluster.goxqfcv.mongodb.net/?retryWrites=true&w=majority/happycompany');
         console.log('Database connected!');
     } catch (error) {
         console.log(error);
